@@ -8,7 +8,7 @@ html {
 }
 body {
 	border: 10px solid #fff;
-	background-color: #3c3f44;
+	background-color: #fff;
 	/* height: 100% */	
 	min-height: 100vh;
 	margin: 0;
@@ -95,3 +95,6 @@ input:checked + span {
 
 }
 
+input, span {
+	vertical-align: middle;
+}
