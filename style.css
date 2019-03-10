@@ -37,10 +37,19 @@ h1 + p {
 }
 
 main {
-	width: 60%;
+	width: 80%;
 	padding: 20px;
 	margin: 0 auto;
 	/* outline: 1px solid red; */
+}
+
+form {
+	
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
 }
 
 ul {
